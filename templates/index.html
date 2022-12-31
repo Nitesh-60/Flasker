@@ -1,0 +1,13 @@
+<h1>Hello World!</h1>
+<p>This is my first web page !!!</p>
+<p>My name is {{first_name}}</p>
+<!-- <p>{{stuff|safe}}</p> -->
+<p>{{stuff|title}}</p>
+
+<h1>Numbers List</h1>
+{% for number in numbers_lst %}
+    {{number}}<br/>
+{% endfor %}
+
+<br><br>
+{{ numbers_lst.2 }}
